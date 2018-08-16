@@ -1,0 +1,46 @@
+<h2>Customer Details</h2>
+<form [formGroup]="customerFormGroup" novalidate>
+    <table border="1">
+        <tr>
+            <td>Id:</td>
+            <td>
+                <input type="text" formControlName="Id" />
+            </td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td>
+                <input type="text" formControlName="Name" />
+            </td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td>
+                <input type="text" formControlName="Age" />
+            </td>
+        </tr>
+        <tr>
+            <td>DOB:</td>
+            <td>
+                <input type="text" formControlName="DOB" />
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>
+                <input type="text" formControlName="Email" />
+            </td>
+        </tr>
+        <tr>
+            <td>PhoneNumber:</td>
+            <td>
+                <input type="text" formControlName="PhoneNumber" />
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <a [routerLink]="['/customer/list']">Back</a>
+            </td>
+        </tr>
+    </table>
+</form>
