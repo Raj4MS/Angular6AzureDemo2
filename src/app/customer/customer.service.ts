@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 export class CustomerService {
 
     // baseUrl = 'http://localhost:49675';
-    baseUrl = 'http://webapi2azuredemo.azurewebsites.net';
+    baseUrl = 'https://webapi2azuredemo.azurewebsites.net/';
 
     constructor(private http: HttpClient) {
 

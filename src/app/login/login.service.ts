@@ -11,7 +11,7 @@ export class LoginService {
 
     // baseUrl = 'http://localhost:49675';
     
-    baseUrl = 'http://webapi2azuredemo.azurewebsites.net';
+    baseUrl = 'https://webapi2azuredemo.azurewebsites.net/';
     isAuthenticated = false;
 
     constructor(private http: HttpClient) { }
